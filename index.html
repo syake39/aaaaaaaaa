@@ -1,0 +1,16 @@
+import React from "react";
+import link from "./link.svg";
+
+export const Heading = (): JSX.Element => {
+  return (
+    <div className="w-[274px] h-[310px]">
+      <div className="relative w-[730px] h-[510px] top-[-50px] left-[-50px] bg-[url(/image.png)] bg-[100%_100%]">
+        <img
+          className="absolute w-[274px] h-[17px] top-[51px] left-[50px]"
+          alt="Link"
+          src={link}
+        />
+      </div>
+    </div>
+  );
+};
