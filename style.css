@@ -1,0 +1,22 @@
+.heading {
+  width: 274px;
+  height: 310px;
+}
+
+.heading .overlap-group {
+  position: relative;
+  width: 730px;
+  height: 510px;
+  top: -50px;
+  left: -50px;
+  background-image: url(./img/image.png);
+  background-size: 100% 100%;
+}
+
+.heading .link {
+  position: absolute;
+  width: 274px;
+  height: 17px;
+  top: 51px;
+  left: 50px;
+}
