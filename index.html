@@ -1,16 +1,14 @@
-import React from "react";
-import link from "./link.svg";
-
-export const Heading = (): JSX.Element => {
-  return (
-    <div className="w-[274px] h-[310px]">
-      <div className="relative w-[730px] h-[510px] top-[-50px] left-[-50px] bg-[url(/image.png)] bg-[100%_100%]">
-        <img
-          className="absolute w-[274px] h-[17px] top-[51px] left-[50px]"
-          alt="Link"
-          src={link}
-        />
-      </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <div class="overlap-group"><img class="link" src="img/link.svg" /></div>
     </div>
-  );
-};
+  </body>
+</html>
