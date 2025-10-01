@@ -1,51 +1,74 @@
-.frame {
-  background-color: #ffffff;
-  display: grid;
-  justify-items: center;
-  align-items: start;
-  width: 100vw;
+iphone-pro {
+background-color: #ffffff;
+width: 100%;
+min-width: 393px;
+min-height: 10000px;
+display: flex;
+
+. iphone-pro . group {
+margin-top: 32px;
+width: 335. 28px;
+height: 271.03px;
+margin-left: 30px;
+position: relative;
+
+. iphone-pro . text-wrapper {
+position: absolute;
+top: 0;
+left: 0;
+font-family: "Inter-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 12px;
+letter-spacing: 0;
+line-height: normal;
+
+. iphone pro . rectangle {
+position: absolute;
+top: 44px;
+left: 85px;
+width: 183px;
+height: 149px;
+background-color: #d9d9d9;
+}
+. iphone-pro .buttn {
+position: absolute;
+top: 43px;
+left: 111px;
+width: 105px;
+height: 105px;
+aspect-ratio: 1;
+object-fit: cover;
+
+. iphone-pro . vector {
+position: absolute;
+top: 102px;
+left: 31px;
+width: 88px;
+height: 148px;
+
+. iphone-pro . img {
+position: absolute;
+top: 10px;
+left: 67px;
+width: 226px;
+height: 65px;
+
+. iphone-pro .vector-2 {
+position: absolute;
+top: 148px;
+left: 229px;
+width: 85px;
+height: 65px;
+}
+  . iphone-pro .vector-3 {
+position: absolute;
+top: 38px;
+left: 10px;
+width: 324px;
+height: 234px;
 }
 
-.frame .overlap-group-wrapper {
-  background-color: #ffffff;
-  width: 285px;
-  height: 125px;
-}
-
-.frame .overlap-group {
-  position: relative;
-  width: 217px;
-  height: 96px;
-  top: 2px;
-  left: 68px;
-}
-
-.frame .vector {
-  position: absolute;
-  width: 148px;
-  height: 80px;
-  top: 16px;
-  left: 0;
-}
-
-.frame .text-wrapper {
-  position: absolute;
-  width: 20px;
-  height: 25px;
-  top: 44px;
-  left: 24px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .check-mark {
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  top: 0;
-  left: 127px;
-}
+  
+  
+  
