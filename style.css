@@ -3,10 +3,10 @@ background-color: #ffffff;
 width: 100%;
 min-width: 393px;
 min-height: 10000px;
-display: flex;
+position: relative;
 }
 
-. iphone-pro . group {
+.iphone-pro . group {
 margin-top: 32px;
 width: 335. 28px;
 height: 271.03px;
